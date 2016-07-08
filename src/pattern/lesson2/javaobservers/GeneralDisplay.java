@@ -1,7 +1,5 @@
 package pattern.lesson2.javaobservers;
 
-import pattern.lesson2.observers.Observer.DisplayElement;
-
 import java.util.Observable;
 import java.util.Observer;
 

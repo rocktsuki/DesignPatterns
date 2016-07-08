@@ -7,6 +7,7 @@ public class WeatherStation {
 
         // Observer
         GeneralDisplay generalDisplay = new GeneralDisplay(weatherData);
+        ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
         weatherData.setMeasurements(80, 65, 30.4f);
         weatherData.setMeasurements(70, 55, 28.4f);
         weatherData.setMeasurements(20, 45, 22.4f);
